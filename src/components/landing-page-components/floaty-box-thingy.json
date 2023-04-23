@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_landing_page_components_floaty_box_thingies",
+  "info": {
+    "displayName": "Floaty Box Thingy",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "subheading": {
+      "type": "string",
+      "required": true
+    },
+    "subdescription": {
+      "type": "text",
+      "required": true
+    },
+    "benefits": {
+      "displayName": "Minor Benefit",
+      "type": "component",
+      "repeatable": true,
+      "component": "landing-page-components.minor-benefit",
+      "required": true,
+      "min": 6,
+      "max": 6
+    }
+  }
+}

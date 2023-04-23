@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_landing_page_components_news_articles",
+  "info": {
+    "displayName": "News Article"
+  },
+  "options": {},
+  "attributes": {
+    "source": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "destination": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

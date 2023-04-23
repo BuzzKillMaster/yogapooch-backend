@@ -1,0 +1,46 @@
+{
+  "kind": "singleType",
+  "collectionName": "landing_page_blog_posts_sections",
+  "info": {
+    "singularName": "landing-page-blog-posts-section",
+    "pluralName": "landing-page-blog-posts-sections",
+    "displayName": "Landing Page Blog Posts Section"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "subheading": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "heading": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "text",
+      "required": true
+    }
+  }
+}

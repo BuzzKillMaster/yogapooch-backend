@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_landing_page_components_team_members",
+  "info": {
+    "displayName": "Team Member"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "education": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "linkedin": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

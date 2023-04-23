@@ -1,0 +1,61 @@
+{
+  "kind": "singleType",
+  "collectionName": "landing_page_statistics_sections",
+  "info": {
+    "singularName": "landing-page-statistics-section",
+    "pluralName": "landing-page-statistics-sections",
+    "displayName": "Landing Page Statistics Section",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "subheading": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "heading": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "text",
+      "required": true
+    },
+    "statistics": {
+      "displayName": "statistic",
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "landing-page-components.statistic",
+      "max": 4,
+      "min": 4,
+      "required": true
+    }
+  }
+}
